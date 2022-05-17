@@ -1,0 +1,58 @@
+.tweetbox {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 15px 0;
+  }
+  .form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+    }
+    .textarea {
+      resize: none;
+      overflow: hidden;
+      color: #fff;
+      width: 80%;
+      height: 52px;
+      padding: 13px 0;
+      &:focus {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      &::placeholder {
+        font-size: 17px;
+      }
+    }
+  }
+  .textBoxBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 20px 0 10px;
+    .icons {
+      margin-left: 80px;
+      .textBoxIcon {
+        width: 20px;
+        margin: 0 7px;
+      }
+    }
+    .btn {
+      width: 80px;
+      height: 30px;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      color: #fff;
+      background-color: #1da1f2;
+    }
+  }
+}
